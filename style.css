@@ -376,8 +376,8 @@ footer .fcon2 ul li a:hover {
   nav .btn {
     border: 2px solid white;
     color: white;
-    padding: 15px 40%;
-    width: 100%;
+    padding: 15px 8em;
+    /* width: 100%; */
     z-index: 1;
   }
   nav .btn:hover {
@@ -509,11 +509,10 @@ footer .fcon2 ul li a:hover {
     width: 100%;
   }
 }
-
+/* ========================================================================== */
 @media screen and (max-width: 376px) {
   nav ul.show {
     position: absolute;
-    /* top: 70px; */
     bottom: -50px;
     height: 72vh;
   }
@@ -522,10 +521,6 @@ footer .fcon2 ul li a:hover {
     height: 38%;
     width: 100%;
     z-index: 0;
-  }
-  nav .btn {
-    padding: 15px 120px;
-    z-index: 1;
   }
   header {
     z-index: 0;
